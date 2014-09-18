@@ -1,7 +1,7 @@
 module Api
   class ItemsController < ApiController
     def create
-      @items = Item.new(items_params)
+      @items = Item.new(item_params)
 
       if @items.save
         render json: @items

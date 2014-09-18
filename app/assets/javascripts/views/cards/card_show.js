@@ -25,5 +25,6 @@ TrelloClone.Views.CardShow = Backbone.View.extend({
     this.modalView = this.modalView ||
       new TrelloClone.Views.CardModal({ model: this.model });
     $('body').prepend(this.modalView.render().$el);
+    this.modalView.delegateEvents();
   },
 });

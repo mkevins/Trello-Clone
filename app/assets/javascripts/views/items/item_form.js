@@ -15,7 +15,11 @@ TrelloClone.Views.ItemForm = Backbone.View.extend({
   submit: function (event) {
     event.preventDefault();
     var title = this.$('.item-title-input').val();
-    this.model.set('title', title);
-    this.model.save();
-  },
+    var params = {
+      title: title,
+      card_id: this.collection.card.id
+    };
+    this.collection.create(params, { wait: true });
+    this.render();
+  }
 });
