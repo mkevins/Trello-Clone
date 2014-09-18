@@ -18131,3 +18131,307 @@ Unpermitted parameters: id
   [1m[36mSQL (1.3ms)[0m  [1mUPDATE "cards" SET "list_id" = $1, "updated_at" = $2 WHERE "cards"."id" = 10[0m  [["list_id", 5], ["updated_at", Thu, 18 Sep 2014 21:22:08 UTC +00:00]]
   [1m[35m (1.6ms)[0m  COMMIT
 Completed 200 OK in 20ms (Views: 0.6ms | ActiveRecord: 6.2ms)
+
+
+Started GET "/?title=test" for 127.0.0.1 at 2014-09-18 15:22:39 -0700
+Processing by StaticPagesController#root as HTML
+  Parameters: {"title"=>"test"}
+  [1m[36mUser Load (1.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'rXSDNYkc2ZRECvJoPm_khw' LIMIT 1[0m
+  Rendered static_pages/root.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.5ms)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.core.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.accordion.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.theme.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.autocomplete.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.menu.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.progressbar.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.selectable.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.dialog.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.datepicker.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.resizable.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.tabs.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.slider.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.spinner.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/navbar.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.all.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.button.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.tooltip.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.base.css?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.widget.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.sortable.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.core.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/underscore.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/jquery.ui.mouse.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/backbone.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/boards/index.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/boards/show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/cards/form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/trello_clone.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/cards/form_link.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/cards/modal.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/cards/show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/items/index.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/items/form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/items/list.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/items/show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/layout/_form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/layout/dropdown.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/lists/form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/lists/form_link.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/lists/show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/utils/composite_view.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/utils/link_form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/utils/ord_view.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/models/board.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/models/item.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/models/list.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/collections/boards.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/models/card.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/collections/cards.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/collections/items.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/boards/boards_index.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/boards/board_show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/collections/lists.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/cards/card_modal.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/cards/card_show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/cards/card_form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/items/item_form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/items/item_show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/items/items_index.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/items/items_list.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/layout/dropdown.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/lists/list_form.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/views/lists/list_show.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/routers/router.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/assets/bootstrap/glyphicons-halflings-regular.woff" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+
+
+Started GET "/api/boards/4" for 127.0.0.1 at 2014-09-18 15:22:40 -0700
+Processing by Api::BoardsController#show as JSON
+  Parameters: {"id"=>"4"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'rXSDNYkc2ZRECvJoPm_khw' LIMIT 1
+  [1m[36mBoard Load (0.8ms)[0m  [1mSELECT "boards".* FROM "boards" WHERE "boards"."id" = $1 LIMIT 1[0m  [["id", "4"]]
+  [1m[35mBoardMembership Load (0.9ms)[0m  SELECT "board_memberships".* FROM "board_memberships" WHERE "board_memberships"."board_id" IN (4)
+  [1m[36mList Load (0.6ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."board_id" IN (4) ORDER BY "lists"."ord" ASC[0m
+  [1m[35mCard Load (0.6ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."list_id" IN (5, 4) ORDER BY "cards"."ord" ASC
+  Rendered api/boards/show.json.jbuilder (3.1ms)
+Completed 200 OK in 19ms (Views: 6.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/api/cards/10" for 127.0.0.1 at 2014-09-18 15:22:48 -0700
+Processing by Api::CardsController#show as JSON
+  Parameters: {"id"=>"10"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'rXSDNYkc2ZRECvJoPm_khw' LIMIT 1[0m
+  [1m[35mCard Load (0.6ms)[0m  SELECT "cards".* FROM "cards" WHERE "cards"."id" = $1 ORDER BY "cards"."ord" ASC LIMIT 1  [["id", "10"]]
+  [1m[36mList Load (0.5ms)[0m  [1mSELECT "lists".* FROM "lists" WHERE "lists"."id" = $1 ORDER BY "lists"."ord" ASC LIMIT 1[0m  [["id", 5]]
+  [1m[35mBoard Load (0.5ms)[0m  SELECT "boards".* FROM "boards" WHERE "boards"."id" = $1 ORDER BY "boards"."id" ASC LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."id" = $1 ORDER BY "cards"."ord" ASC LIMIT 1[0m  [["id", "10"]]
+  [1m[35mItem Load (0.7ms)[0m  SELECT "items".* FROM "items" WHERE "items"."card_id" = $1  [["card_id", 10]]
+  Rendered api/cards/show.json.jbuilder (6.1ms)
+Completed 200 OK in 23ms (Views: 8.6ms | ActiveRecord: 2.9ms)
+
+
+Started POST "/api/items" for 127.0.0.1 at 2014-09-18 15:22:54 -0700
+Processing by Api::ItemsController#create as JSON
+  Parameters: {"title"=>"hjk", "card_id"=>10, "item"=>{"title"=>"hjk", "card_id"=>10}}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."session_token" = 'rXSDNYkc2ZRECvJoPm_khw' LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mCard Load (0.5ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."id" = $1 ORDER BY "cards"."ord" ASC LIMIT 1[0m  [["id", 10]]
+  [1m[35mSQL (0.7ms)[0m  INSERT INTO "items" ("card_id", "created_at", "title", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["card_id", 10], ["created_at", Thu, 18 Sep 2014 22:22:54 UTC +00:00], ["title", "hjk"], ["updated_at", Thu, 18 Sep 2014 22:22:54 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 10ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started PUT "/api/items/13" for 127.0.0.1 at 2014-09-18 15:23:01 -0700
+Processing by Api::ItemsController#update as JSON
+  Parameters: {"id"=>"13", "title"=>"yay!", "card_id"=>10, "done"=>false, "created_at"=>"2014-09-18T21:05:16.859Z", "updated_at"=>"2014-09-18T21:13:59.424Z", "item"=>{"id"=>"13", "title"=>"yay!", "card_id"=>10, "done"=>false, "created_at"=>"2014-09-18T21:05:16.859Z", "updated_at"=>"2014-09-18T21:13:59.424Z"}}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."session_token" = 'rXSDNYkc2ZRECvJoPm_khw' LIMIT 1
+  [1m[36mItem Load (0.7ms)[0m  [1mSELECT "items".* FROM "items" WHERE "items"."id" = $1 LIMIT 1[0m  [["id", "13"]]
+Unpermitted parameters: id, created_at, updated_at
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mCard Load (0.6ms)[0m  [1mSELECT "cards".* FROM "cards" WHERE "cards"."id" = $1 ORDER BY "cards"."ord" ASC LIMIT 1[0m  [["id", 10]]
+  [1m[35mSQL (0.7ms)[0m  UPDATE "items" SET "done" = $1, "updated_at" = $2 WHERE "items"."id" = 13  [["done", false], ["updated_at", Thu, 18 Sep 2014 22:23:01 UTC +00:00]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+Completed 200 OK in 12ms (Views: 0.6ms | ActiveRecord: 4.8ms)
