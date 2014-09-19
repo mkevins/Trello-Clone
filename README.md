@@ -43,6 +43,10 @@ should be able to see all your boards on your index page.
 
 ### Phase II: Board Show and Lists
 
+* Right now, the `/api/boards/:board_id` route shows nothing. That's because
+  we left it to you to fill in the Jbuilder template. Open up
+  `app/views/api/boards/show.json.jbuilder` and fill it in so it returns
+  the necessary JSON data.
 * On your index page, give every board a link to its show page.
 * Make the board show page. Add a Backbone route to it. For the moment, just 
 have a board's show page contain the name of the board and a list of its lists. 
