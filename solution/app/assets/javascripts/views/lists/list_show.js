@@ -2,6 +2,7 @@ TrelloClone.Views.ListShow = Backbone.CompositeView.extend({
   orderOptions: {
     modelElement: '.card-display',
     modelName: 'card',
+    subviewContainer: '.list-cards'
   },
 
   events: {
