@@ -9,16 +9,18 @@ TrelloClone.Views.BoardsIndex = Backbone.View.extend({
   tagName: 'ul',
 
   render: function () {
-    var content = this.template();
-    this.$el.html(content);
     var indexView = this;
-    this.collection.each(function (board) {
-      var showView = new TrelloClone.Views.BoardShow({
+
+    var content = indexView.template();
+    indexView.$el.html(content);
+
+    indexView.collection.each(function (board) {
+      var itemView = new TrelloClone.Views.BoardItem({
         model: board
       });
-      indexView.$el.append(showView.render().$el);
+      indexView.$el.append(itemView.render().$el);
     });
-    return this;
+    return indexView;
   }
 
 });
