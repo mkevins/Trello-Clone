@@ -1,31 +1,31 @@
-*.rbc
-capybara-*.html
-.rspec
-/log
-/tmp
-/db/*.sqlite3
-/public/system
-/coverage/
-/spec/tmp
-**.orig
-rerun.txt
-pickle-email-*.html
+/skeleton/*.rbc
+/skeleton/capybara-*.html
+/skeleton/.rspec
+/skeleton/log
+/skeleton/tmp
+/skeleton/db/*.sqlite3
+/skeleton/public/system
+/skeleton/coverage/
+/skeleton/spec/tmp
+/skeleton/**.orig
+/skeleton/rerun.txt
+/skeleton/pickle-email-*.html
 
 # TODO Comment out these rules if you are OK with secrets being uploaded to the repo
-config/initializers/secret_token.rb
-config/secrets.yml
+/skeleton/config/initializers/secret_token.rb
+/skeleton/config/secrets.yml
 
 ## Environment normalisation:
-/.bundle
-/vendor/bundle
+/skeleton/.bundle
+/skeleton/vendor/bundle
 
 # these should all be checked in to normalise the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
-.rvmrc
+/skeleton/.rvmrc
 
 # if using bower-rails ignore default bower_components path bower.json files
-/vendor/assets/bower_components
-*.bowerrc
-bower.json
+/skeleton/vendor/assets/bower_components
+/skeleton/*.bowerrc
+/skeleton/bower.json
