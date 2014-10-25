@@ -1,3 +1,7 @@
 <a href="#/api/boards/<%= board.id %>">
   <%= board.escape('title') %>
 </a>
+<button
+class="delete-board"
+data-board-id="<%= board.id %>"
+>Delete Board</button>

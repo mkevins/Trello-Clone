@@ -12,3 +12,12 @@ window.TrelloClone = {
     Backbone.history.start();
   }
 };
+
+Backbone.View.prototype.leave = function () {
+	if (this.subViews) {
+		this.subViews.forEach(function (subView) {
+			subView.leave();
+		});
+	}
+	this.remove();
+}

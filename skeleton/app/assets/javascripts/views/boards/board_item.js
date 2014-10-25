@@ -10,5 +10,4 @@ TrelloClone.Views.BoardItem = Backbone.View.extend({
     this.$el.html(content);
     return this;
   }
-
 });
